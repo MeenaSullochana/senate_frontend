@@ -1,0 +1,26 @@
+﻿# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules
+
+# Build
+dist
+dist-ssr
+dist1
+*.local
+
+# Env
+.env
+.env.*.local
+
+# Editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Vite
+vite.config.js.timestamp-*.mjs
