@@ -1,0 +1,185 @@
+.mkyc {
+  min-height: 100svh;
+  padding: 28px 16px 48px;
+  background: radial-gradient(1200px 600px at 50% -10%, #1a1030 0%, #07070b 55%, #050508 100%);
+  color: #f4f4f5;
+}
+
+.mkyc--embedded {
+  min-height: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.mkyc__shell {
+  width: min(720px, 100%);
+  margin: 0 auto;
+  border: 1px solid transparent;
+  border-radius: 18px;
+  padding: 28px 22px 32px;
+  background:
+    linear-gradient(#0d0d12, #0d0d12) padding-box,
+    linear-gradient(135deg, #3de7ff, #b14cff, #ff5c8a, #ffb14a) border-box;
+  box-shadow: 0 0 40px rgba(120, 80, 255, 0.18);
+}
+
+.mkyc__brand {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.mkyc__logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  color: #e8c36a;
+  background: #1a1520;
+  border: 1px solid #5a4a2a;
+  font-size: 20px;
+}
+
+.mkyc__co {
+  margin: 0;
+  color: #e8c36a;
+  font-size: 14px;
+}
+
+.mkyc__brand h1 {
+  margin: 4px 0 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.mkyc__deadline {
+  color: #b9b9c4;
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+
+.mkyc__card h2 {
+  margin: 0 0 14px;
+  font-size: 1.15rem;
+}
+
+.mkyc__card p {
+  line-height: 1.55;
+  color: #dddde6;
+}
+
+.mkyc__callout {
+  border: 1px solid #2f9e5f;
+  background: rgba(47, 158, 95, 0.08);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  color: #d8ffe8;
+}
+
+.mkyc__kv {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.mkyc__kv li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: #ececf2;
+}
+
+.mkyc__check {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin: 14px 0 18px;
+  color: #ececf2;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.mkyc__check input {
+  margin-top: 3px;
+}
+
+.mkyc__radios {
+  border: 0;
+  padding: 0;
+  margin: 0 0 14px;
+}
+
+.mkyc__radios legend {
+  margin-bottom: 8px;
+  color: #cfcfd8;
+}
+
+.mkyc__radios label {
+  margin-right: 18px;
+}
+
+.mkyc__nav {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.mkyc__btn {
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 18px;
+  color: #fff;
+  font-weight: 650;
+  cursor: pointer;
+  background: linear-gradient(90deg, #4aa8ff, #ff5d8f);
+}
+
+.mkyc__btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.mkyc__ok {
+  color: #7dffa8;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.mkyc__card--success {
+  text-align: center;
+}
+
+.mkyc__success-title {
+  color: #9dff7a !important;
+}
+
+.mkyc__check-icon {
+  width: 64px;
+  height: 64px;
+  margin: 18px auto;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #6b3cff;
+  font-size: 28px;
+}
+
+.mkyc .admin-field {
+  margin-bottom: 12px;
+}
+
+.mkyc .admin-field span {
+  color: #c9c9d4;
+}
+
+.mkyc .admin-field input,
+.mkyc .admin-field select,
+.mkyc .admin-field textarea {
+  background: #15151c;
+  border: 1px solid #2c2c38;
+  color: #fff;
+}

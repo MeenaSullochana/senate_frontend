@@ -1,0 +1,5 @@
+/* Base reset lives mostly in App.css for this single-page site */
+body {
+  margin: 0;
+  background: #000;
+}
